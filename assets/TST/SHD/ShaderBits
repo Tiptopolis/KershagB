@@ -1,0 +1,40 @@
+
+
+
+//////////////////////////////////////////////
+//SET MOUSE & CAMERA FOM JAVA
+/////////////////////////////////////////////
+
+
+varying vec3 c_position; //camera position
+uniform mat4 u_projTrans; //camera combined matrix
+uniform vec2 u_resolution;
+uniform vec2 u_mouse; //unprojected mouse position
+
+void main()
+{
+	//vec2 st = (gl_FragCoord.xy/u_resolution); //start
+	//vec2 m = u_mouse/u_resolution; //mouse
+	//dividing by resolution translates them to screen area i suppose
+	
+	//camera & mouse positions
+	vec3 c = c_position;
+	vec2 cPos = c.xy/u_resolution;
+	
+	vec2 st = cPos;		
+	vec2 m = u_mouse/u_resolution;
+	
+	//adjust to aspect ratio
+	st.x *= u_resolution.x/u_resolution.y;
+	m.x *= u_resolution.x/u_resolution.y;
+	
+	
+	=> st is now center of screen/view
+	=> m is the mouse's screen position
+	
+	gl_FragColor = vec4(0);
+	///////////////////
+	}
+	
+/////////////////////////////////////
+/////////////////////////////////////

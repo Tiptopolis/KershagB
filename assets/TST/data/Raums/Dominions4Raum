@@ -1,0 +1,71 @@
+#PATHS
+Fire
+Air
+Water
+Earth
+Astral
+Death
+Nature
+Blood
+Holy
+***
+#SCHOOLS
+Conjuration
+Alteration
+Evocation
+Construction
+Enchantment
+Thaumaturgy
+Blood Magic
+***
+
+#UNIT_TYPES
+-#COMMANDERS*
+-#TROOPS*
+***
+
+#UNIT_TYPES_COMANDERS //hero types lol, ROTK
+Mob
+Officer
+Priest
+Mage
+Champion  //<Officer,Priest,Mage>
+Hero      //:Champion
+***
+
+#UNIT_TYPES_TROOPS
+Chaff
+Line
+Cavalry
+Flyers
+Archers
+***
+
+#METHODS
+-#HIRE
+Recruit
+Summon
+Free
+Mercenary
+*
+-#ACTIONS*
+-#EVENTS*
+***
+
+
+#UNIT_ATTRIBUTES  <Type, .getDescriptorString()>
+HP: The amount of damage your character can take before dying. This is replenished at the end of each battle. The usual minimum of 0 can be lowered by a major death bless.
+Size: Size determines how many units can be in a single square on the battlefield (a maximum sum of 6 points). It also determines how many supplies a unit needs each turn (Size minus 1).
+Strength: This determines how much damage a unit does when it successfully strikes a target. This number is added to weapon damage and a DRN, and then enemy protection is subtracted from it.
+Attack: This determines the unit’s chances of successfully striking a target with melee weapons. It is added to a DRN and compared to the enemy's defense roll.
+Defense: This determines the unit’s chances of avoiding a strike by melee weapons. It is added to a DRN and compared to the enemy's attack roll.
+Protection: This is the unit’s armor rating. It can be different on different parts of the body, depending on equipment worn or simply the nature of the creature’s hide. These separate values will be shown when you click on Protection.
+Morale: This measures a unit’s likelihood of running from battle.
+Magic Resistance: Think of this as Protection, only against magic. Not all spells have to penetrate Magic Resistance, though.
+Precision: This is how accurate a unit is at range, either with missiles or with magic.
+Encumbrance: A unit will incur Fatigue equal to its Encumbrance on each turn it attacks. Moving — by itself — does not incur this.
+Move: This is two numbers. The first is the number of provinces a unit can move on the world map per turn, assuming no terrain features hinder it. The second is the number of action points a unit has on the tactical map. Action points are used to move and attack. The larger this number, the further a unit can move on the battlefield.
+Fatigue: A unit’s Fatigue causes it to be more susceptible to critical strikes. Once a unit reaches 100 fatigue, it becomes unconscious and is unable to attack or defend. A unit at 200 fatigue starts taking regular hit point damage instead of fatigue damage from additional fatigue.
+Age: The first number is the unit’s age in years. The number in parentheses is the age at which the unit will start suffering penalties and become susceptible to afflictions due to old age. This attribute is displayed when you click on Fatigue.
+Leadership: Commanders only. This is the number of units a commander can lead. Clicking on this attribute shows additional leadership abilities or restrictions, such as the ability to lead undead and/or magic beings. A commander can lead 30 undead beings per level of Death magic skill and 5 per level of Blood magic skill he or she has. Magical leadership is determined by indirect magic bonuses (see Indirect Magic chart – not all paths confer the same benefits).
+***

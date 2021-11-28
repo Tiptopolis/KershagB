@@ -1,0 +1,33 @@
+:#TROOP_
+
+#TROOP_CLASS
+???
+Common
+Heavy
+GenericOfficer
+%Faction
+Special //siege engines, magical summons
+***
+
+#TROOP_PROPERTIES
+-#CLASS
+-#TYPE
+-#WEAPON
+***
+
+#TROOP_CLASS_SPECIAL
+Obstacle //fallen rocks, WC3 destructibles
+Construct //building, bridge, platform
+Machine //stationary interactible
+Engine  //mobile interactible, crewed-vehicle, mobile platform
+***
+#WEAPON_TYPES
+Sword
+Spear
+Pike
+Bow
+Crossbow
+*
+
+
+:|:
