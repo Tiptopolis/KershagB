@@ -1,2 +1,2 @@
 # KershagB
- backup for CurrentYear eperimentia
+ backup for CurrentYear experimentia
